@@ -1,4 +1,5 @@
-static string EncryptByFrequencyAnalysis(string message, string key)
+//Первый способ шифрования
+        static string EncryptByFrequencyAnalysis(string message, string key)
         {
 
                 try
@@ -30,4 +31,4 @@ static string EncryptByFrequencyAnalysis(string message, string key)
                 }
 
             return null;
-        } //Первый способ шифрования
+        }
