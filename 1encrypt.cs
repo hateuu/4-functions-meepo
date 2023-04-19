@@ -1,3 +1,4 @@
+        //Первая функция шифрования
         static string EncryptByFrequencyAnalysis(string message, string key)
         {
             
