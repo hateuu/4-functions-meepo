@@ -1,4 +1,12 @@
-static void Main(string[] args)
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace ConsoleApp
+{
+    class Program
+    {
+        static void Main(string[] args)
         {
             a1:
             Console.WriteLine("\nВыберите режим:");
@@ -146,3 +154,5 @@ static void Main(string[] args)
             }
             
         }
+    }
+}
