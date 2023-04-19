@@ -1,6 +1,6 @@
-        static string EncryptByFrequencyAnalysis(string message, string key)
+static string EncryptByFrequencyAnalysis(string message, string key)
         {
-            
+
                 try
                 {
                     var charCodes = new Dictionary<char, string>();
@@ -22,12 +22,12 @@
                         }
                     }
 
-                    return string.Join(" ", encryptedChars);
+                    return string.Join( , encryptedChars);
                 }
-                catch 
+                catch
                 {
-                    Console.WriteLine("Не используйте два одинаковых символа для ключ-кода!");
+                    Console.WriteLine(Не используйте два одинаковых символа для ключ-кода!);
                 }
-                
+
             return null;
-        }
+        } //Первый способ шифрования
