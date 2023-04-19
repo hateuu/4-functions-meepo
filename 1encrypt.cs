@@ -23,11 +23,11 @@
                         }
                     }
 
-                    return string.Join( , encryptedChars);
+                    return string.Join(" ", encryptedChars);
                 }
                 catch
                 {
-                    Console.WriteLine(Не используйте два одинаковых символа для ключ-кода!);
+                    Console.WriteLine("Не используйте два одинаковых символа для ключ-кода!");
                 }
 
             return null;
